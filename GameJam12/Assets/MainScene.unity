@@ -2957,7 +2957,7 @@ MonoBehaviour:
   - 
   charactersInScene: []
   currCharacterList: []
-  question: {fileID: 0}
+  question: {fileID: 32464659}
   nextDialog: {fileID: 0}
 --- !u!4 &1172022463
 Transform:
