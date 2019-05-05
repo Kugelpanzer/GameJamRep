@@ -5,7 +5,11 @@ using System.IO;
 
 public class DialogClass:MonoBehaviour
 {
+    public GameObject background;
 
+    public Transform outScenePos;
+
+    public Transform inScenePos;
 
     [TextArea]
     public List<string> sentence = new List<string>();
@@ -70,6 +74,7 @@ public class DialogClass:MonoBehaviour
         {
             controller.GetComponent<ControllerScript>().NextScene(nextDialog);
         }
+        RemoveBackground();
        // ResetScene();
     }
     public void ResetScene()
@@ -77,6 +82,14 @@ public class DialogClass:MonoBehaviour
         currentSentence = 0;
         currentCharacter = 0;
         charactersDisplayedInd = 0;
+    }
+    public void RemoveBackground()
+    {
+        background.transform.position = outScenePos.position;
+    }
+    public void InsertBackground()
+    {
+        background.transform.position = inScenePos.position;
     }
 
 

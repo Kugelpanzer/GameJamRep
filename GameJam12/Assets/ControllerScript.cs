@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ControllerScript : MonoBehaviour
 {
+
+
     public int crewMutany = 3;
     public List<GameObject> AllCharacters = new List<GameObject>();
     
@@ -16,14 +18,17 @@ public class ControllerScript : MonoBehaviour
     public GameObject firstScene;
     private GameObject currentScene;
     public GameObject mutanyScene;
+ 
 
     //private List<GameObject> Character;
     /*   private string characterTalking;
        private string sentence;*/
 
-    private bool endFlag; 
+    private bool endFlag;
 
     #region gui
+    public GUISkin skin;
+
     public Text nameText;
     public Text sentenceText;
 
@@ -44,6 +49,7 @@ public class ControllerScript : MonoBehaviour
     public void NextScene(GameObject Scene)
     {
         currentScene = Scene;
+        currentScene.GetComponent<DialogClass>().InsertBackground();
     }
 
     public void LoadStep()
@@ -123,6 +129,7 @@ public class ControllerScript : MonoBehaviour
 
     private void OnGUI()
     {
+        GUI.skin = skin;
         QuestionShow();
     }
     // Start is called before the first frame update
@@ -131,6 +138,7 @@ public class ControllerScript : MonoBehaviour
        // displayQuestion = null;
         cs = gameObject.GetComponent<ControllerScript>();
         currentScene = firstScene;
+        LoadStep();
         
     }
 

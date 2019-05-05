@@ -170,6 +170,8 @@ MonoBehaviour:
   - {fileID: 2055922568}
   lastScene: []
   firstScene: {fileID: 1535004084}
+  mutanyScene: {fileID: 0}
+  skin: {fileID: 11400000, guid: d6b39b2e2280b3c408a67989b49ac123, type: 2}
   nameText: {fileID: 2031547393}
   sentenceText: {fileID: 660563081}
 --- !u!1 &660563079
@@ -341,7 +343,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021985569}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.27, y: 0.08, z: 0}
+  m_LocalPosition: {x: -4.61, y: 0.23, z: 0}
   m_LocalScale: {x: 1.963, y: 1.671, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -381,6 +383,9 @@ MonoBehaviour:
   - nesto1
   - 'zestoko '
   - bumbum
+  mutanyLevel: 
+  chance: 
+  failedScenes: []
   sceneOptions:
   - {fileID: 0}
   - {fileID: 0}
@@ -638,7 +643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511266463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.92, y: 0.85, z: 0}
+  m_LocalPosition: {x: 8.1, y: 0.14, z: 0}
   m_LocalScale: {x: 1.963, y: 1.671, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -673,6 +678,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  outScenePos: {fileID: 0}
+  inScenePos: {fileID: 0}
   sentence: []
   charactersInScene: []
   currCharacterList: []
@@ -721,6 +729,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  outScenePos: {fileID: 1919638766}
+  inScenePos: {fileID: 1999103976}
   sentence:
   - Once again you dozed off. Daydreaming.
   - 'nesto2
@@ -1047,7 +1058,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8d497d4605ebe0848a494ebf34011330, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1066,8 +1077,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055922568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.48, y: -0.23, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.4000001, y: 0.27999997, z: 0}
   m_LocalScale: {x: 1.963, y: 1.671, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
