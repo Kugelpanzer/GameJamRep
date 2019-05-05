@@ -212,7 +212,7 @@ MonoBehaviour:
   options:
   - 'Run from it beofre they see you. '
   - Fight them!
-  allowedOption: 
+  allowedOption: 0000000000000000
   mutanyLevel: 
   chance: 
   failedScenes: []
