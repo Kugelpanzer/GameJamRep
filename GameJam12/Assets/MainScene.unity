@@ -1331,13 +1331,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 2129745852}
+  background: {fileID: 555443326}
   outScenePos: {fileID: 1859671718}
   inScenePos: {fileID: 1965812753}
   sentence:
   - GAME OVER
-  charactersInScene: []
-  currCharacterList: []
+  charactersInScene:
+  - 
+  currCharacterList:
+  - 
   question: {fileID: 0}
   nextDialog: {fileID: 0}
 --- !u!4 &272293002
@@ -1643,6 +1645,85 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &555443326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555443328}
+  - component: {fileID: 555443327}
+  m_Layer: 0
+  m_Name: endbc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &555443327
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555443326}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8b6f834e7d693bb4a94857efa159a92f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &555443328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555443326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -19.224129, y: 21.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &564938901
 GameObject:
@@ -2314,7 +2395,6 @@ MonoBehaviour:
   - {fileID: 1299216589}
   - {fileID: 1004388027}
   - {fileID: 143448677}
-  MainAnchor: {fileID: 0}
   lastScene:
   - {fileID: 272293000}
   - {fileID: 1916147038}
@@ -2719,7 +2799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004388027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.26, y: 0.71, z: 0}
+  m_LocalPosition: {x: -44.6, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3131,7 +3211,19 @@ MonoBehaviour:
     do something for me first. I have several smaller problems here and you can choose
     one to solve.
   - 
-  charactersInScene: []
+  charactersInScene:
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
+  - Crow
   currCharacterList: []
   question: {fileID: 402901205}
   nextDialog: {fileID: 0}
@@ -5239,13 +5331,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 2129745852}
+  background: {fileID: 555443326}
   outScenePos: {fileID: 1859671718}
   inScenePos: {fileID: 1965812753}
   sentence:
   - CREW WAS MAD AND KILLED YOU..
-  charactersInScene: []
-  currCharacterList: []
+  charactersInScene:
+  - 
+  currCharacterList:
+  - 
   question: {fileID: 0}
   nextDialog: {fileID: 0}
 --- !u!4 &1916147040
@@ -5675,7 +5769,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: f4f4b8352c23bb247adebb55afc67c0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e3d39dba0fe3a67418b30c2908098f12, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5769,6 +5863,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8717376858044714376, guid: b62756b6da278724a8a3374e8186d216,
         type: 3}
+      propertyPath: charactersInScene.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717376858044714376, guid: b62756b6da278724a8a3374e8186d216,
+        type: 3}
       propertyPath: background
       value: 
       objectReference: {fileID: 2129745852}
@@ -5787,5 +5886,10 @@ PrefabInstance:
       propertyPath: question
       value: 
       objectReference: {fileID: 402901205}
+    - target: {fileID: 8717376858044714376, guid: b62756b6da278724a8a3374e8186d216,
+        type: 3}
+      propertyPath: charactersInScene.Array.data[0]
+      value: Crow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b62756b6da278724a8a3374e8186d216, type: 3}
