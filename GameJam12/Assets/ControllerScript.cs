@@ -9,8 +9,8 @@ public class ControllerScript : MonoBehaviour
 
     public int crewMutany = 3;
     public List<GameObject> AllCharacters = new List<GameObject>();
-    
 
+    AudioSource audio;
 
     public List<GameObject> lastScene = new List<GameObject>();
 
@@ -136,7 +136,7 @@ public class ControllerScript : MonoBehaviour
             foreach (string option in qc.PosibleAnswers())
             {
 
-                if (GUI.Button(new Rect(200, i * 200, 500, 50), option))
+                if (GUI.Button(new Rect(200, i * 50, 500, 50), option))
                 {
 
                     AnswerQuestion(i);
@@ -159,6 +159,8 @@ public class ControllerScript : MonoBehaviour
 
     private void OnGUI()
     {
+
+
         GUI.skin = skin;
         QuestionShow();
     }
@@ -177,7 +179,7 @@ public class ControllerScript : MonoBehaviour
         //LoadStep();
         sentenceText.text = "";
         nameText.text = "";
-
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -186,8 +188,9 @@ public class ControllerScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && (!endFlag) &&(displayQuestion==null))
         {
             // if(currentScene!=null)
-            
-           // LoadStep();
+
+            // LoadStep();
+            audio.Play();
             Step();
 
         }
