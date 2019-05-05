@@ -14,7 +14,7 @@ public class ControllerScript : MonoBehaviour
 
     public List<GameObject> lastScene = new List<GameObject>();
 
-    private List<int> choiceList=new List<int>();
+    public List<int> choiceList=new List<int>();
     public GameObject firstScene;
     private GameObject currentScene;
     public GameObject mutanyScene;
@@ -165,6 +165,8 @@ public class ControllerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
        // displayQuestion = null;
         cs = gameObject.GetComponent<ControllerScript>();
 

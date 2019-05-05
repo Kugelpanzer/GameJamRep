@@ -48,7 +48,7 @@ public class QuestionClass:MonoBehaviour
         }
         else
         {
-            if (chance[index] < Random.Range(0, 100))
+            if (chance[index] < Random.Range(1, 100))
             {
                 allowedOption[index] = -1;
                 return failedScenes[index];
