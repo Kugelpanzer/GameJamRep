@@ -2528,7 +2528,7 @@ MonoBehaviour:
   - 
   charactersInScene: []
   currCharacterList: []
-  question: {fileID: 0}
+  question: {fileID: 67108042}
   nextDialog: {fileID: 0}
 --- !u!4 &998124120
 Transform:
@@ -4224,7 +4224,7 @@ MonoBehaviour:
   - You practiced a lot of Navigation since then
   - You read a lot of books and practiced you Speech since then
   - You got out of a lot of tricky situations by finding a good way to Escape
-  allowedOption: 00000000000000000000000000000000
+  allowedOption: 
   mutanyLevel: 
   chance: 
   failedScenes: []
@@ -5182,7 +5182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965812752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
