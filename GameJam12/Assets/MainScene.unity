@@ -2423,7 +2423,7 @@ MonoBehaviour:
   charactersInScene: []
   currCharacterList: []
   question: {fileID: 0}
-  nextDialog: {fileID: 655114430}
+  nextDialog: {fileID: 2045760230}
 --- !u!4 &956519966
 Transform:
   m_ObjectHideFlags: 0
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   - 
   charactersInScene: []
   currCharacterList: []
-  question: {fileID: 0}
+  question: {fileID: 402901205}
   nextDialog: {fileID: 0}
 --- !u!4 &1195040191
 Transform:
