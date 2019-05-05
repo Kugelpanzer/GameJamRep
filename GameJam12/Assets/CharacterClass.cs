@@ -42,7 +42,7 @@ public class CharacterClass:MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inScenePos = GameObject.Find("InSceneObj").transform;
+        inScenePos = GameObject.Find("InScene").transform;
         outScenePos = GameObject.Find("OutOfSceneObj").transform;
     }
     /*
