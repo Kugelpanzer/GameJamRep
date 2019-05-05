@@ -4224,7 +4224,7 @@ MonoBehaviour:
   - You practiced a lot of Navigation since then
   - You read a lot of books and practiced you Speech since then
   - You got out of a lot of tricky situations by finding a good way to Escape
-  allowedOption: 
+  allowedOption: 00000000000000000000000000000000
   mutanyLevel: 
   chance: 
   failedScenes: []
