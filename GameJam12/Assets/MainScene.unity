@@ -2350,7 +2350,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2177460c5de863542aad24babea2fa20, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.508
+  m_Volume: 0.254
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3696,7 +3696,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398128761}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.68, y: -18.68, z: -249.002}
+  m_LocalPosition: {x: -17.8, y: -18.68, z: -249.002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4032,10 +4032,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -4507,7 +4507,7 @@ MonoBehaviour:
   - They cought us.
   charactersInScene: []
   currCharacterList: []
-  question: {fileID: 169350923}
+  question: {fileID: 272293000}
   nextDialog: {fileID: 0}
 --- !u!4 &1676828791
 Transform:
