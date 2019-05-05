@@ -10,6 +10,8 @@ public class ControllerScript : MonoBehaviour
     public int crewMutany = 3;
     public List<GameObject> AllCharacters = new List<GameObject>();
 
+    public GameObject MainAnchor;
+
     AudioSource audio;
 
     public List<GameObject> lastScene = new List<GameObject>();
