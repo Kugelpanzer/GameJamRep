@@ -2194,7 +2194,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  AddModifier: 04000000000000000000000000000000000000000000000000000000
+  AddModifier: 
 --- !u!4 &762740157
 Transform:
   m_ObjectHideFlags: 0
