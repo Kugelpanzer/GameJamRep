@@ -120,6 +120,148 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &85935176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 85935178}
+  - component: {fileID: 85935177}
+  m_Layer: 0
+  m_Name: MemoryScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &85935177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85935176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 2129745852}
+  outScenePos: {fileID: 1859671718}
+  inScenePos: {fileID: 1965812753}
+  sentence:
+  - "Father ran to me. / He said that we were attacked by Blackbeak and The Dread
+    Seal crew. He got me on the deck of The Barracuda and wanted me to take the boat
+    and get far to safety. / I didn\u2019t want to leave. I was no coward! And I was
+    15, able to fight! / Father agreed to let me into the fight, gave me this sword,
+    but only to trick me and knock me unconcious."
+  - His First Mate Hubert got me to the safety.
+  - My father left me an amulet and his sword. / Unfortunatelly map and fathers notes
+    got into the wings of Blackbeak, cursed be his feathers.
+  - "It was map for the greatest treasure. / Fathers First Mate Hubert told me that
+    it was located on the Isla de los p\xE1jaros muertos and that amulet unlocks the
+    treasure somehow. He didn\u2019t know the location of the island and how to get
+    to the treasure. He told me that it is quite a dangerous island by the father\u2019s
+    stories and the rummors."
+  - '...'
+  charactersInScene: []
+  currCharacterList:
+  - Kale Wright Memory
+  - Kale Wright Memory
+  - Kale Wright Memory
+  - Kale Wright Memory
+  - Kale Wright Memory
+  question: {fileID: 0}
+  nextDialog: {fileID: 1810770598}
+--- !u!4 &85935178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85935176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.06, y: 0.59, z: -249.002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &89061692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 89061694}
+  - component: {fileID: 89061693}
+  m_Layer: 0
+  m_Name: NarratorScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &89061693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89061692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 2129745852}
+  outScenePos: {fileID: 1859671718}
+  inScenePos: {fileID: 1965812753}
+  sentence:
+  - Once again you dozed off. / Daydreaming.
+  - When you are daydreaming you are usually daydreaming about one of the two things.
+    One is the Freedom and the other is THAT night.
+  - Today you went there, to that night. It was almost ten years ago so everything
+    is a little hazy to you.
+  - '...'
+  - You were sleeping at the deck and the sounds of cannons and yelling woke you up.
+    / Your father, Pirate Parrot Joachim Wright, was in command of The Barracuda.
+    / He was a good Captain and a decent bird, as how decent Pirate Bird can be. /
+    He was good to his crew and he was never cruel. Harsh and strict yes, but cruel
+    never. He was respected by Pirate Lords and was rummord that he is most likely
+    to become the next Pirate King.
+  - That must be why Blackbeak attacked that night. He wanted to be Pirate King. /
+    Blackbeard... / even some of the Pirate Lords questioned his methods. He was cruel
+    and sadistic. Even for a Pirate. / And he was greedy. Greedy for treasure and
+    power.
+  - He must have snucked his ship behind the Teeth Reefs and waited for The Barracuda.
+    / He knew that we had to sail that way in order to reach the Pirate City of Hidenest.
+    A city that only Pirates knew of and where voting for next Pirate King would come
+    to be.
+  - '...'
+  charactersInScene: []
+  currCharacterList: []
+  question: {fileID: 0}
+  nextDialog: {fileID: 85935176}
+--- !u!4 &89061694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89061692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.09, y: 1.8, z: -249.002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143448677
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,6 +272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143448679}
   - component: {fileID: 143448678}
+  - component: {fileID: 143448680}
   m_Layer: 0
   m_Name: CharacterBlackBeak
   m_TagString: Untagged
@@ -193,12 +336,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143448677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26, y: 15.3, z: 0}
+  m_LocalPosition: {x: -71.1, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &143448680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143448677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: 
 --- !u!1 &186083838
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,7 +409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: dc0f0eab3cf4b9640bcb419d02d95166, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -276,7 +433,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &209887676
 GameObject:
@@ -288,6 +445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209887678}
   - component: {fileID: 209887677}
+  - component: {fileID: 209887679}
   m_Layer: 0
   m_Name: CharacterGolub
   m_TagString: Untagged
@@ -351,11 +509,76 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209887676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.59, y: 15.86, z: 0}
+  m_LocalPosition: {x: -54.809998, y: 1.7599993, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &209887679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209887676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: Pigeon Blues Soldiers
+--- !u!1 &218256214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 218256216}
+  - component: {fileID: 218256215}
+  m_Layer: 0
+  m_Name: DefaultScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &218256215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218256214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 2129745852}
+  outScenePos: {fileID: 1859671718}
+  inScenePos: {fileID: 1965812753}
+  sentence: []
+  charactersInScene: []
+  currCharacterList: []
+  question: {fileID: 0}
+  nextDialog: {fileID: 0}
+--- !u!4 &218256216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218256214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.06, y: 1.8, z: -249.002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &588281754
 GameObject:
@@ -367,6 +590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588281756}
   - component: {fileID: 588281755}
+  - component: {fileID: 588281757}
   m_Layer: 0
   m_Name: CharacterCrowSeer
   m_TagString: Untagged
@@ -430,12 +654,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588281754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.4, y: 5.3, z: 0}
+  m_LocalPosition: {x: -62.999996, y: -8.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &588281757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588281754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: 
 --- !u!1 &672651236
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,6 +684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672651238}
   - component: {fileID: 672651237}
+  - component: {fileID: 672651239}
   m_Layer: 0
   m_Name: CharacterSparow
   m_TagString: Untagged
@@ -509,11 +748,76 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672651236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.1, y: 5.1, z: 0}
+  m_LocalPosition: {x: -53.3, y: -9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672651239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672651236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: 
+--- !u!1 &695318673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 695318675}
+  - component: {fileID: 695318674}
+  m_Layer: 0
+  m_Name: DefaultScene (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &695318674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695318673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 2129745852}
+  outScenePos: {fileID: 1859671718}
+  inScenePos: {fileID: 1965812753}
+  sentence: []
+  charactersInScene: []
+  currCharacterList: []
+  question: {fileID: 0}
+  nextDialog: {fileID: 0}
+--- !u!4 &695318675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695318673}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.06, y: -1.77, z: -249.002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &913864840
 GameObject:
@@ -546,11 +850,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crewMutany: 3
   AllCharacters:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1024337009}
+  - {fileID: 588281754}
+  - {fileID: 672651236}
+  - {fileID: 209887676}
+  - {fileID: 1872694078}
+  - {fileID: 1299216589}
+  - {fileID: 1004388027}
+  - {fileID: 143448677}
   lastScene: []
-  firstScene: {fileID: 0}
+  firstScene: {fileID: 89061692}
   mutanyScene: {fileID: 0}
   skin: {fileID: 11400000, guid: d6b39b2e2280b3c408a67989b49ac123, type: 2}
   nameText: {fileID: 2026496087}
@@ -567,7 +876,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1004388027
 GameObject:
@@ -579,6 +888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004388029}
   - component: {fileID: 1004388028}
+  - component: {fileID: 1004388030}
   m_Layer: 0
   m_Name: CharacterChick
   m_TagString: Untagged
@@ -642,12 +952,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1004388027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 53.14, y: 15.92, z: 0}
+  m_LocalPosition: {x: -44.26, y: 1.8199997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1004388030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004388027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: First Mate Dave
 --- !u!1 &1024337009
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,6 +982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024337011}
   - component: {fileID: 1024337010}
+  - component: {fileID: 1024337012}
   m_Layer: 0
   m_Name: CharacterCaptain
   m_TagString: Untagged
@@ -721,12 +1046,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024337009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.6, y: 15.9, z: 0}
+  m_LocalPosition: {x: -63.5, y: 1.7999992, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1024337012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024337009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: 
 --- !u!1 &1299216589
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +1076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299216591}
   - component: {fileID: 1299216590}
+  - component: {fileID: 1299216592}
   m_Layer: 0
   m_Name: CharacterCrowFight
   m_TagString: Untagged
@@ -800,11 +1140,75 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299216589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.6, y: 5.1, z: 0}
+  m_LocalPosition: {x: -72.8, y: -9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299216592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299216589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: 
+--- !u!1 &1427733951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427733953}
+  - component: {fileID: 1427733952}
+  m_Layer: 0
+  m_Name: DefaultQuestion
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1427733952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427733951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ea7d1145df66a4383fad6f6ebaa475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options: []
+  allowedOption: 
+  mutanyLevel: 
+  chance: 
+  failedScenes: []
+  sceneOptions: []
+  AddModifier: 
+--- !u!4 &1427733953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427733951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.19, y: 1.06, z: -1576.392}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1538023602
 GameObject:
@@ -837,7 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -918,7 +1322,7 @@ RectTransform:
   - {fileID: 1538023605}
   - {fileID: 2026496085}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -985,6 +1389,166 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1621167869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1621167871}
+  - component: {fileID: 1621167870}
+  m_Layer: 0
+  m_Name: TraitQuestion
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1621167870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621167869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ea7d1145df66a4383fad6f6ebaa475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  options:
+  - You practiced a lot of Fencing since then
+  - You practiced a lot of Navigation since then
+  - You read a lot of books and practiced you Speech since then
+  - You got out of a lot of tricky situations by finding a good way to Escape
+  allowedOption: 00000000000000000000000000000000
+  mutanyLevel: 
+  chance: 
+  failedScenes: []
+  sceneOptions:
+  - {fileID: 1748853220}
+  - {fileID: 1748853220}
+  - {fileID: 1748853220}
+  - {fileID: 1748853220}
+  AddModifier: 01000000020000000300000004000000
+--- !u!4 &1621167871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621167869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.12, y: -1.38, z: -1576.392}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1748853220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748853222}
+  - component: {fileID: 1748853221}
+  m_Layer: 0
+  m_Name: FirstDaveScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1748853221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748853220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 2129745852}
+  outScenePos: {fileID: 1859671718}
+  inScenePos: {fileID: 1965812753}
+  sentence:
+  - as it is surely going to be useful in the near future.
+  - "You remember how much time has passed. You devoted your life to piracy and planning
+    the revenge on Blackbeak and getting that treasure your father was working on
+    acquiring. / Just now you are sailing empty-handed from mission that you though
+    could give you information about whereabouts of Isla de los p\xE1jaros muertos."
+  - You started to remember the tales your father told you about the island and the
+    treasure and just in that moment your First Mate Dave enters the door of your
+    cabin.
+  - "Ca, ca, Capta\u2019n Sir, Arrr! Do you have the time? Arrrr!"
+  - "I came to inform you that the crew is a bit restless. It was a long time since
+    we raided Pigeon Trading Ships or plundered Land Nests. / We are not exactly poor,
+    but some of the crew don\u2019t believe that there is any ultimate treasure and
+    are concerned that we are chasing ghosts of the past."
+  - Do you believe in me Dave?
+  - "Yes my Capta\u2019n! / But you should do something with the crew as well. / We
+    need to ease their spirits. They do work hard and mean well, but see is harsh
+    for all of us and being the Pirate is not as easy life."
+  - Also many have mixed feelings that Blackbeak has noted us lately. / Some are afraid
+    that he will catch us off guard and that we should act first. Some are thirsty
+    for his blood. / We all know we will meet him sooner or later.
+  - Do you think I do not want to see him dead?
+  - "I know my Capta\u2019n."
+  - Still see if there is something you want to do with the crew
+  - Still see if there is something you want to do with the crew
+  - Still see if there is something you want to do with the crew
+  charactersInScene:
+  - 
+  - 
+  - 
+  - First Mate Dave
+  - First Mate Dave
+  - First Mate Dave
+  - First Mate Dave
+  - First Mate Dave
+  - First Mate Dave
+  - First Mate Dave
+  - First Mate Dave
+  - 
+  - 
+  currCharacterList:
+  - 
+  - 
+  - 
+  - First Mate Dave
+  - First Mate Dave
+  - Parrot Captain Kale Wright
+  - First Mate Dave
+  - First Mate Dave
+  - Parrot Captain Kale Wright
+  - First Mate Dave
+  - First Mate Dave
+  - Parrot Captain Kale Wright
+  - Parrot Captain Kale Wright
+  question: {fileID: 0}
+  nextDialog: {fileID: 0}
+--- !u!4 &1748853222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748853220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.17, y: -2.62, z: -249.002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805487351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1632,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1810770598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1810770600}
+  - component: {fileID: 1810770599}
+  m_Layer: 0
+  m_Name: TraitScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1810770599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810770598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171461e64b2e38648a772d4bf9fde7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 2129745852}
+  outScenePos: {fileID: 1859671718}
+  inScenePos: {fileID: 1965812753}
+  sentence:
+  - As you get back from your daydreaming to real world you think to yourself that
+    it is good that
+  - 
+  charactersInScene: []
+  currCharacterList:
+  - Parrot Captain Kale Wright
+  - 
+  question: {fileID: 1621167869}
+  nextDialog: {fileID: 218256214}
+--- !u!4 &1810770600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810770598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.13, y: -0.45, z: -249.002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1859671717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1872694080}
   - component: {fileID: 1872694079}
+  - component: {fileID: 1872694081}
   m_Layer: 0
   m_Name: CharacterGaleb
   m_TagString: Untagged
@@ -1171,12 +1792,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872694078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.7, y: 5.4, z: 0}
+  m_LocalPosition: {x: -44.699997, y: -8.700001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1872694081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872694078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4dd001bd6f22f439279d5947ea8380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  characterName: 
 --- !u!1 &1965812752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1895,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 564a7c7e1363e714b96689dcc46990f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1284,7 +1919,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2026496084
 GameObject:
@@ -1344,7 +1979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1418,7 +2053,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: f4f4b8352c23bb247adebb55afc67c0a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1442,5 +2077,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

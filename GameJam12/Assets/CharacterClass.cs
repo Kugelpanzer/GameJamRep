@@ -9,9 +9,9 @@ public class CharacterClass:MonoBehaviour
     bool inScene;
 
 
-    public Transform outScenePos;
+    private Transform outScenePos;
 
-    public Transform inScenePos;
+    private Transform inScenePos;
 
     float moveDist = 6f;
     public void RemoveFromScene()
@@ -39,12 +39,13 @@ public class CharacterClass:MonoBehaviour
         }
         inScene = true;
     }
-  /*  // Start is called before the first frame update
+    // Start is called before the first frame update
     void Start()
     {
-        
+        inScenePos = GameObject.Find("InSceneObj").transform;
+        outScenePos = GameObject.Find("OutOfSceneObj").transform;
     }
-
+    /*
     // Update is called once per frame
     void Update()
     {

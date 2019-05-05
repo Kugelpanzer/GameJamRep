@@ -35,10 +35,11 @@ public class DialogClass:MonoBehaviour
     {
         if (currentSentence < sentence.Count - 1)
         {
-            Debug.Log(currentSentence);
+        //    Debug.Log(currentSentence);
             currentSentence++;
             currentCharacter++;
-            charactersDisplayedInd = currentSentence % charactersInScene.Count;
+            if(charactersInScene.Count!=0)
+                charactersDisplayedInd = currentSentence % charactersInScene.Count;
 
         }
         else
@@ -53,28 +54,37 @@ public class DialogClass:MonoBehaviour
     }
     public string ReturnName()
     {
-        return currCharacterList[currentCharacter];
+        if (currCharacterList.Count == 0)
+            return "";
+        else
+            return currCharacterList[currentCharacter];
     }
     public List<string> ReturnCharacters()
     {
+        
         List<string> str=new List<string>();
-        string[] strr =charactersInScene[charactersDisplayedInd].Split(',');
-        foreach (string st in strr)
-            str.Add(st);
+        if (charactersInScene.Count != 0)
+        {
+            string[] strr = charactersInScene[charactersDisplayedInd].Split(',');
+            foreach (string st in strr)
+                str.Add(st);
+        }
         return str;
     }
 
     public void EndScene()
     {
+
         if (question != null)
         {
             controller.GetComponent<ControllerScript>().RunQuestion(question);
         }
         else
         {
+            RemoveBackground();
             controller.GetComponent<ControllerScript>().NextScene(nextDialog);
         }
-        RemoveBackground();
+       
        // ResetScene();
     }
     public void ResetScene()
