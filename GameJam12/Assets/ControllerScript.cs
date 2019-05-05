@@ -136,7 +136,7 @@ public class ControllerScript : MonoBehaviour
             foreach (string option in qc.PosibleAnswers())
             {
 
-                if (GUI.Button(new Rect(100, i * 100, 200, 50), option))
+                if (GUI.Button(new Rect(200, i * 200, 500, 50), option))
                 {
 
                     AnswerQuestion(i);
